@@ -1,0 +1,20 @@
+{
+  "name": "gulp-task-svg-stack",
+  "version": "0.0.1",
+  "description": "A gulp task for proper svg stack generation via svg-sprite.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wunderkraut/gulp-task-svg-stack"
+  },
+  "bugs": {
+    "url": "https://github.com/wunderkraut/gulp-task-svg-stack/issues"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-svg-sprite": "^1.2.10",
+    "lodash.defaultsdeep": "^3.10.0",
+    "path": "^0.12.7"
+  },
+  "license": "MIT"
+}
