@@ -41,7 +41,7 @@ module.exports = {
   basePath: '.',
 
   // Overwrite default configurations.
-  configurationKey: {
+  svgStack: {
     src: path.join('images', 'icons', '*.svg'),
     dest: 'images',
     filename: 'iconstack'
