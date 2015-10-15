@@ -13,7 +13,8 @@ module.exports = function (gulp, gulpConfig) {
     svgStack: {
       src: path.join('icons', '*.svg'),
       dest: 'images',
-      filename: 'iconstack'
+      filename: 'iconstack',
+      svgSpriteOptions: {}
     }
   };
 
@@ -32,7 +33,8 @@ module.exports = function (gulp, gulpConfig) {
             dest: '.',
             sprite: config.filename + '.svg'
           }
-        }
+        },
+        svg: config.svgSpriteOptions
       }))
       .pipe(gulp.dest(path.join(gulpConfig.basePath, config.dest)));
   });
